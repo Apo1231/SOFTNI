@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #F8F8F8;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.utez.fintree.fintreefx.ControladorPantallaNuevoRegistro">
+    <children>
+        <AnchorPane layoutX="70.0" layoutY="60.0" prefHeight="480.0" prefWidth="360.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10px; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 5);">
+            <children>
+                <Label layoutX="115.0" layoutY="160.0" text="FIN" textFill="#2e7d32">
+                    <font>
+                        <Font name="Inter Bold" size="48.0" />
+                    </font>
+                </Label>
+                <Label layoutX="175.0" layoutY="190.0" text="TREE" textFill="#2e7d32">
+                    <font>
+                        <Font name="Inter Bold" size="48.0" />
+                    </font>
+                </Label>
+                <Label layoutX="60.0" layoutY="280.0" prefHeight="18.0" prefWidth="240.0" text="COMO UN ARBOL QUE CRECE CON TUS FINANZAS" alignment="CENTER" wrapText="true" textFill="#5A5A5A">
+                    <font>
+                        <Font name="Inter Regular" size="12.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+
+        <AnchorPane layoutX="470.0" layoutY="60.0" prefHeight="480.0" prefWidth="360.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10px; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 5);">
+            <children>
+                <Label layoutX="30.0" layoutY="50.0" text="Empieza a tomar el" textFill="#2e7d32">
+                    <font>
+                        <Font name="Inter Bold" size="24.0" />
+                    </font>
+                </Label>
+                <Label layoutX="30.0" layoutY="80.0" text="control de tus finanzas" textFill="#2e7d32">
+                    <font>
+                        <Font name="Inter Bold" size="24.0" />
+                    </font>
+                </Label>
+
+                <Label layoutX="30.0" layoutY="170.0" text="USUARIO" textFill="#5A5A5A">
+                    <font>
+                        <Font name="Inter Regular" size="14.0" />
+                    </font>
+                </Label>
+                <TextField layoutX="30.0" layoutY="190.0" prefWidth="280.0" promptText="Type here..." style="-fx-background-color: white; -fx-background-radius: 5px; -fx-border-color: #D3D3D3; -fx-border-radius: 1px; -fx-padding: 8px 10px; -fx-font-size: 14px;" />
+
+                <Label layoutX="30.0" layoutY="260.0" text="CONTRASEÑA" textFill="#5A5A5A">
+                    <font>
+                        <Font name="Inter Regular" size="14.0" />
+                    </font>
+                </Label>
+                <PasswordField layoutX="30.0" layoutY="280.0" prefWidth="280.0" promptText="Type here..." style="-fx-background-color: white; -fx-background-radius: 5px; -fx-border-color: #D3D3D3; -fx-border-radius: 1px; -fx-padding: 8px 10px; -fx-font-size: 14px;" />
+
+                <Label layoutX="30.0" layoutY="350.0" text="CONFIRMAR CONTRASEÑA" textFill="#5A5A5A">
+                    <font>
+                        <Font name="Inter Regular" size="14.0" />
+                    </font>
+                </Label>
+                <PasswordField layoutX="30.0" layoutY="370.0" prefWidth="280.0" promptText="Type here..." style="-fx-background-color: white; -fx-background-radius: 5px; -fx-border-color: #D3D3D3; -fx-border-radius: 1px; -fx-padding: 8px 10px; -fx-font-size: 14px;" />
+
+                <Button layoutX="100.0" layoutY="440.0" mnemonicParsing="false" text="REGISTRARSE" style="-fx-background-color: #377D22; -fx-text-fill: white; -fx-font-size: 16px; -fx-padding: 10px 30px; -fx-background-radius: 8px; -fx-cursor: hand;" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

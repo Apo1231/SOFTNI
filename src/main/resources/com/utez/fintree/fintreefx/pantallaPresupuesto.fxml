@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #F8F8F8;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.utez.fintree.fintreefx.ControladorPantallaPresupuesto">
+    <children>
+        <AnchorPane layoutX="70.0" layoutY="30.0" prefHeight="60.0" prefWidth="760.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10px; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2);">
+            <children>
+                <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="0.0" prefHeight="60.0" prefWidth="80.0">
+                    <children>
+                        <Label text="[H]" textFill="#2e7d32">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <Label text=" Inicio" textFill="#2e7d32">
+                            <font>
+                                <Font name="Inter Regular" size="14.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" layoutX="110.0" layoutY="0.0" prefHeight="60.0" prefWidth="90.0">
+                    <children>
+                        <Label text="[$]" textFill="#2e7d32">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <Label text=" Ahorros" textFill="#2e7d32">
+                            <font>
+                                <Font name="Inter Regular" size="14.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" layoutX="210.0" layoutY="0.0" prefHeight="60.0" prefWidth="90.0">
+                    <children>
+                        <Label text="[G]" textFill="#2e7d32">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <Label text=" Gastos" textFill="#2e7d32">
+                            <font>
+                                <Font name="Inter Regular" size="14.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" layoutX="310.0" layoutY="0.0" prefHeight="60.0" prefWidth="90.0">
+                    <children>
+                        <Label text="[D]" textFill="#2e7d32">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <Label text=" Deudas" textFill="#2e7d32">
+                            <font>
+                                <Font name="Inter Regular" size="14.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" layoutX="410.0" layoutY="0.0" prefHeight="60.0" prefWidth="120.0" style="-fx-background-color: #A3D8B0; -fx-background-radius: 8px;">
+                    <children>
+                        <Label text="[P]" textFill="WHITE">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <Label text=" Presupuesto" textFill="WHITE">
+                            <font>
+                                <Font name="Inter Regular" size="14.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" layoutX="540.0" layoutY="0.0" prefHeight="60.0" prefWidth="100.0">
+                    <children>
+                        <Label text="[C]" textFill="#2e7d32">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <Label text=" Categorías" textFill="#2e7d32">
+                            <font>
+                                <Font name="Inter Regular" size="14.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <AnchorPane layoutX="680.0" layoutY="10.0" prefHeight="40.0" prefWidth="40.0" style="-fx-border-color: #D3D3D3; -fx-border-width: 1px; -fx-border-radius: 5px;">
+                    <children>
+                        <Label layoutX="10.0" layoutY="10.0" text="[X]" textFill="#5A5A5A">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+
+        <Label layoutX="80.0" layoutY="120.0" text="Ingresar presupuesto:" textFill="#5A5A5A">
+            <font>
+                <Font name="Inter Regular" size="14.0" />
+            </font>
+        </Label>
+        <TextField layoutX="80.0" layoutY="150.0" prefWidth="250.0" promptText="Type here..." style="-fx-background-color: white; -fx-background-radius: 5px; -fx-border-color: #D3D3D3; -fx-border-radius: 1px; -fx-padding: 8px 10px; -fx-font-size: 14px;" />
+        <Button layoutX="340.0" layoutY="150.0" mnemonicParsing="false" text="🔍" style="-fx-background-color: white; -fx-text-fill: #5A5A5A; -fx-font-size: 16px; -fx-padding: 8px; -fx-background-radius: 5px; -fx-cursor: hand; -fx-border-color: #D3D3D3; -fx-border-radius: 1px; -fx-border-width: 1px;" />
+
+        <Label layoutX="80.0" layoutY="230.0" text="Presupuesto:" textFill="#5A5A5A">
+            <font>
+                <Font name="Inter Regular" size="14.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutX="70.0" layoutY="260.0" prefHeight="300.0" prefWidth="760.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10px; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2);">
+            <children>
+                <Label layoutX="250.0" layoutY="80.0" text="[Aquí irá la tabla de presupuesto]" textFill="#AAAAAA" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

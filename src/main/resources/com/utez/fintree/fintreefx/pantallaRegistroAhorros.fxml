@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #F8F8F8;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.utez.fintree.fintreefx.ControladorRegistroAhorros">
+    <children>
+        <AnchorPane layoutX="61.0" layoutY="14.0" prefHeight="480.0" prefWidth="760.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10px; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 5);">
+            <children>
+                <Button layoutX="30.0" layoutY="30.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-text-fill: #5A5A5A; -fx-font-size: 24px; -fx-cursor: hand;" text="←" />
+
+                <Label layoutX="30.0" layoutY="90.0" text="Registro de" textFill="#2e7d32">
+                    <font>
+                        <Font name="Inter Bold" size="24.0" />
+                    </font>
+                </Label>
+                <Label layoutX="30.0" layoutY="120.0" text="Ahorros" textFill="#2e7d32">
+                    <font>
+                        <Font name="Inter Bold" size="24.0" />
+                    </font>
+                </Label>
+
+                <VBox layoutX="260.0" layoutY="60.0" prefHeight="350.0" prefWidth="350.0" spacing="15.0">
+                    <Label text="Fecha Registro" textFill="#5A5A5A">
+                        <font>
+                            <Font name="Inter Regular" size="14.0" />
+                        </font>
+                    </Label>
+                    <TextField promptText="Type here..." style="-fx-background-color: white; -fx-background-radius: 5px; -fx-border-color: #D3D3D3; -fx-border-radius: 1px; -fx-padding: 8px 10px; -fx-font-size: 14px;" />
+
+                    <Label text="Monto" textFill="#5A5A5A">
+                        <font>
+                            <Font name="Inter Regular" size="14.0" />
+                        </font>
+                    </Label>
+                    <TextField promptText="Type here..." style="-fx-background-color: white; -fx-background-radius: 5px; -fx-border-color: #D3D3D3; -fx-border-radius: 1px; -fx-padding: 8px 10px; -fx-font-size: 14px;" />
+
+                    <Label text="Tipo Movimiento" textFill="#5A5A5A">
+                        <font>
+                            <Font name="Inter Regular" size="14.0" />
+                        </font>
+                    </Label>
+                    <ComboBox prefWidth="350.0" promptText="Select option" style="-fx-background-color: white; -fx-background-radius: 5px; -fx-border-color: #D3D3D3; -fx-border-radius: 1px; -fx-padding: 8px 10px; -fx-font-size: 14px;" />
+
+                    <Label text="Meta Ahorro" textFill="#5A5A5A">
+                        <font>
+                            <Font name="Inter Regular" size="14.0" />
+                        </font>
+                    </Label>
+                    <ComboBox prefWidth="350.0" promptText="Select option" style="-fx-background-color: white; -fx-background-radius: 5px; -fx-border-color: #D3D3D3; -fx-border-radius: 1px; -fx-padding: 8px 10px; -fx-font-size: 14px;" />
+
+                    <Label text="Saldo Actual" textFill="#5A5A5A">
+                        <font>
+                            <Font name="Inter Regular" size="14.0" />
+                        </font>
+                    </Label>
+                    <TextField promptText="Type here..." style="-fx-background-color: white; -fx-background-radius: 5px; -fx-border-color: #D3D3D3; -fx-border-radius: 1px; -fx-padding: 8px 10px; -fx-font-size: 14px;" />
+
+                    <Label text="Notas" textFill="#5A5A5A">
+                        <font>
+                            <Font name="Inter Regular" size="14.0" />
+                        </font>
+                    </Label>
+                    <TextField prefHeight="50.0" promptText="Type here..." style="-fx-background-color: white; -fx-background-radius: 5px; -fx-border-color: #D3D3D3; -fx-border-radius: 1px; -fx-padding: 8px 10px; -fx-font-size: 14px;" />
+                </VBox>
+
+                <Button layoutX="570.0" layoutY="420.0" mnemonicParsing="false" style="-fx-background-color: #377D22; -fx-text-fill: white; -fx-font-size: 16px; -fx-padding: 10px 20px; -fx-background-radius: 8px; -fx-cursor: hand;" text="Registrar Ahorros" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
